@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_view_5"
+            android:layout_width="wrap_content"
+            android:layout_height="250sp"
+            android:contentDescription="@string/photo_5"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_view_5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:text="@string/vodopad_2" />
+
+        <TextView
+            style="@style/textStyle"
+            android:contentDescription="@string/text_1"
+            android:gravity="center"
+            android:text="@string/_5_activity" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnActivityForeEnd"
+            style="@style/ButtonEnd"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/go_to_activity_5">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btnActivityForeGo"
+            style="@style/ButtonGo"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/go_to_activity_1">
+
+        </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>
